@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="assign1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\usr\;CMake Files\..\..\usr\local\;CMake Files\..\..\usr\local\llvm10ra\;CMake Files\..\..\usr\local\llvm10ra\lib\;CMake Files\..\..\usr\local\llvm10ra\lib\cmake\;CMake Files\..\..\usr\local\llvm10ra\lib\cmake\clang\;CMake Files\..\..\usr\local\llvm10ra\lib\cmake\llvm\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/root/ast-hw/cmake-build-ast-hw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/root/ast-hw/cmake-build-ast-hw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/root/ast-hw/cmake-build-ast-hw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/root/ast-hw/cmake-build-ast-hw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/root/ast-hw/cmake-build-ast-hw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/root/ast-hw/cmake-build-ast-hw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ast-interpreter">
+				<Option output="/root/ast-hw/cmake-build-ast-hw/ast-interpreter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/ast-hw/cmake-build-ast-hw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/llvm10ra/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 ast-interpreter"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ast-interpreter/fast">
+				<Option output="/root/ast-hw/cmake-build-ast-hw/ast-interpreter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/ast-hw/cmake-build-ast-hw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/llvm10ra/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 ast-interpreter/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clang-tablegen-targets">
+				<Option working_dir="/root/ast-hw/cmake-build-ast-hw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 clang-tablegen-targets"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/root/ast-hw/cmake-build-ast-hw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="intrinsics_gen">
+				<Option working_dir="/root/ast-hw/cmake-build-ast-hw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 intrinsics_gen"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/root/ast-hw/cmake-build-ast-hw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/root/ast-hw/ASTInterpreter.cpp">
+			<Option target="ast-interpreter"/>
+		</Unit>
+		<Unit filename="/root/ast-hw/Environment.h">
+			<Option target="ast-interpreter"/>
+		</Unit>
+		<Unit filename="/root/ast-hw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/root/ast-hw/../../usr/local/llvm10ra/lib/cmake/clang/ClangConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\llvm10ra\lib\cmake\clang\"/>
+		</Unit>
+		<Unit filename="/root/ast-hw/../../usr/local/llvm10ra/lib/cmake/clang/ClangTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\llvm10ra\lib\cmake\clang\"/>
+		</Unit>
+		<Unit filename="/root/ast-hw/../../usr/local/llvm10ra/lib/cmake/clang/ClangTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\llvm10ra\lib\cmake\clang\"/>
+		</Unit>
+		<Unit filename="/root/ast-hw/../../usr/local/llvm10ra/lib/cmake/llvm/LLVM-Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\llvm10ra\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/root/ast-hw/../../usr/local/llvm10ra/lib/cmake/llvm/LLVMConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\llvm10ra\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/root/ast-hw/../../usr/local/llvm10ra/lib/cmake/llvm/LLVMConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\llvm10ra\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/root/ast-hw/../../usr/local/llvm10ra/lib/cmake/llvm/LLVMExports-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\llvm10ra\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/root/ast-hw/../../usr/local/llvm10ra/lib/cmake/llvm/LLVMExports.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\llvm10ra\lib\cmake\llvm\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

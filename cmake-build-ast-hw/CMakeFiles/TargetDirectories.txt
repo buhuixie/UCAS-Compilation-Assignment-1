@@ -1,0 +1,9 @@
+/root/ast-hw/cmake-build-ast-hw/CMakeFiles/install/local.dir
+/root/ast-hw/cmake-build-ast-hw/CMakeFiles/install.dir
+/root/ast-hw/cmake-build-ast-hw/CMakeFiles/list_install_components.dir
+/root/ast-hw/cmake-build-ast-hw/CMakeFiles/rebuild_cache.dir
+/root/ast-hw/cmake-build-ast-hw/CMakeFiles/edit_cache.dir
+/root/ast-hw/cmake-build-ast-hw/CMakeFiles/ast-interpreter.dir
+/root/ast-hw/cmake-build-ast-hw/CMakeFiles/clang-tablegen-targets.dir
+/root/ast-hw/cmake-build-ast-hw/CMakeFiles/install/strip.dir
+/root/ast-hw/cmake-build-ast-hw/CMakeFiles/intrinsics_gen.dir
